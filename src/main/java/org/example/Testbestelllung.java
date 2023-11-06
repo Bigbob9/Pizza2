@@ -2,11 +2,12 @@ package org.example;
 
 
 
-public class Testbestelllung{
+public class Testbestelllung{                                 //Hallo
 
     public static void main(String[] args){
 
        BerlinPizzeria bPizzeria = new BerlinPizzeria();
+
        MuenchenPizzeria mPizzeria = new MuenchenPizzeria();
        KoelnPizzeria kPizzeria = new KoelnPizzeria();
        bPizzeria.bestellePizza("Salami");
