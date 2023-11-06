@@ -2,9 +2,15 @@ package org.example;
 import java.util.*;
 public abstract class Pizza {
     String name;
-    String teig;
-    String soße;
-    ArrayList beläge = new ArrayList();
+    Teig teig;
+    Soße soße;
+
+    Salami salami;
+    Gemuese gemuese[];
+    Kaese kaese;
+    Thunfisch thunfisch;
+    Krabben krabben;
+
 
 
 
@@ -13,9 +19,8 @@ public abstract class Pizza {
         System.out.println("Werfe Teig ...");
         System.out.println("Füge Soße hinzug ...");
         System.out.println("Füge Beläge hinzu: ");
-        for (int i = 0; i < beläge.size(); i++){
-            System.out.println("  " + beläge.get(i));
-        }
+
+
     }
 
     public void backen() {
