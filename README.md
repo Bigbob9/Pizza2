@@ -1,2 +1,2 @@
 # Pizza2
-German version, Factory-Pattern by Design-Patter Head first
+German version, Factory-Pattern by Design-Pattern Head first
