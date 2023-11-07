@@ -4,12 +4,11 @@ public interface PizzaZutatenFabrik {
 
     public Teig erstelleTeig();
 
-    public Sosse erstelleSosse();
-    public Kaese erstelleKaese();
-    public Salami erstelleSalami();
-    public Gemuese[] erstelleGemuese();
-    public Thunfisch erstelleThunfisch();
-    public Krabben erstelleKrabben();
+     Sosse erstelleSosse();
+     Kaese erstelleKaese();
+     Salami erstelleSalami();public Gemuese[] erstelleGemuese();
+     Thunfisch erstelleThunfisch();
+     Krabben erstelleKrabben();
 
 
 }
