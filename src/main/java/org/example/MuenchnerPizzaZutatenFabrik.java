@@ -6,8 +6,8 @@ public class MuenchnerPizzaZutatenFabrik implements PizzaZutatenFabrik{
         return new TeigMitDickerKruste();
     }
 
-    public Soße erstelleSoße(){
-        return new Tomatensoße();
+    public Sosse erstelleSosse(){
+        return new Tomatensosse();
     }
 
     public Kaese erstelleKaese(){
@@ -24,7 +24,7 @@ public class MuenchnerPizzaZutatenFabrik implements PizzaZutatenFabrik{
     }
 
     public Thunfisch erstelleThunfisch(){
-        return new ThunfischStücke();
+        return new ThunfischStuecke();
     }
 
     public Krabben erstelleKrabben(){

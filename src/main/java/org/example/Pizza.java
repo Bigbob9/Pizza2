@@ -3,7 +3,7 @@ import java.util.*;
 public abstract class Pizza {
     String name;
     Teig teig;
-    Soße soße;
+    Sosse sosse;
 
     Salami salami;
     Gemuese gemuese[];
@@ -17,8 +17,8 @@ public abstract class Pizza {
     public void vorbereiten(){
         System.out.println("Bereite " + name);
         System.out.println("Werfe Teig ...");
-        System.out.println("Füge Soße hinzug ...");
-        System.out.println("Füge Beläge hinzu: ");
+        System.out.println("Fuege Sosse hinzug ...");
+        System.out.println("Fuege Beläge hinzu: ");
 
 
     }
@@ -28,7 +28,7 @@ public abstract class Pizza {
     }
 
      void schneiden() {
-        System.out.println("Schneide die Pizza diagonal in Stücke");
+        System.out.println("Schneide die Pizza diagonal in Stuecke");
     }
 
     public void einpacken() {

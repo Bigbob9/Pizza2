@@ -3,11 +3,11 @@ package org.example;
 public class BerlinerPizzaZutatenFabrik implements PizzaZutatenFabrik{
 
     public Teig erstelleTeig(){
-        return new TeigMitDünnerKruste();
+        return new TeigMitDuennerKruste();
     }
 
-    public Soße erstelleSoße(){
-        return new MarinaraSoße();
+    public Sosse erstelleSosse(){
+        return new MarinaraSosse();
     }
 
     public Kaese erstelleKaese(){

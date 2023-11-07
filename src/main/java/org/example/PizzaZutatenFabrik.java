@@ -4,7 +4,7 @@ public interface PizzaZutatenFabrik {
 
     public Teig erstelleTeig();
 
-    public Soße erstelleSoße();
+    public Sosse erstelleSosse();
     public Kaese erstelleKaese();
     public Salami erstelleSalami();
     public Gemuese[] erstelleGemuese();
