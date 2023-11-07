@@ -7,4 +7,9 @@ public class BerlinerSalamiPizza extends Pizza {
 
 
     }
+
+    @Override
+    void vorbereiten() {
+
+    }
 }

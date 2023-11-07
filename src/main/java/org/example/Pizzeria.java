@@ -11,7 +11,7 @@ public Pizza bestellePizza(String typ) {
     pizza.vorbereiten();
     pizza.backen();
     pizza.schneiden();
-    pizza.einpacken();
+    pizza.verpacken();
     return pizza;
 }
 

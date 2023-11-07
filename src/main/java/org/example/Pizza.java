@@ -14,16 +14,8 @@ public abstract class Pizza {
 
 
 
-    public void vorbereiten(){
-        System.out.println("Bereite " + name);
-        System.out.println("Werfe Teig ...");
-        System.out.println("Fuege Sosse hinzug ...");
-        System.out.println("Fuege Beläge hinzu: ");
-
-
-    }
-
-    public void backen() {
+    abstract void vorbereiten();
+    void backen() {
         System.out.println("Backe 25 Minuten bei 350 Grad");
     }
 
@@ -31,10 +23,20 @@ public abstract class Pizza {
         System.out.println("Schneide die Pizza diagonal in Stuecke");
     }
 
-    public void einpacken() {
+    void verpacken() {
         System.out.println("Packe die Pizza in die offizielle Pizzeria-Schachtel");
     }
+
     public String getName(){
         return name;
+    }
+
+    void setName(String name){
+        this.name = name;
+    }
+
+    public String toString(){
+        // hier kommt der Code zum Ausgeben der Pizzas ein
+        return "Hallo";
     }
 }

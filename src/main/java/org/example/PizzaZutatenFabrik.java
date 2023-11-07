@@ -6,7 +6,9 @@ public interface PizzaZutatenFabrik {
 
      Sosse erstelleSosse();
      Kaese erstelleKaese();
-     Salami erstelleSalami();public Gemuese[] erstelleGemuese();
+     Salami erstelleSalami();
+
+     Gemuese[] erstelleGemuese();
      Thunfisch erstelleThunfisch();
      Krabben erstelleKrabben();
 

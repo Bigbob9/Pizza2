@@ -11,7 +11,7 @@ public class Testbestelllung{                                 //Hallo
        MuenchenPizzeria mPizzeria = new MuenchenPizzeria();
        KoelnPizzeria kPizzeria = new KoelnPizzeria();
        bPizzeria.bestellePizza("Salami");
-       mPizzeria.bestellePizza("Salami");
-       kPizzeria.bestellePizza("Schinken");
+      // mPizzeria.bestellePizza("Salami");
+      // kPizzeria.bestellePizza("Schinken");
     }
 }

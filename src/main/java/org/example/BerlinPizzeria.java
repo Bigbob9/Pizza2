@@ -2,10 +2,15 @@ package org.example;
 
 public class BerlinPizzeria extends Pizzeria{
 
-    public Pizza erstellePizza(String typ) {
-        Pizza pizza;
+    protected Pizza erstellePizza(String typ) {
+        Pizza pizza = null;
+        BerlinerPizzaZutatenFabrik berlinerZutaten = new BerlinerPizzaZutatenFabrik();
+
+
         if(typ.equals("Salami")){
-            return new BerlinerSalamiPizza();
+            pizza = new SalamiPizza(berlinerZutaten);
+            pizza.setName("Berliner Salamipizza");
+            return pizza;
         } else if (typ.equals("Schinken")){
             return new BerlinerSchinkenPizza();
         } else if (typ.equals("Krabben")){
