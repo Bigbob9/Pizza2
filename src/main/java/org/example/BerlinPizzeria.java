@@ -12,11 +12,17 @@ public class BerlinPizzeria extends Pizzeria{
             pizza.setName("Berliner Salamipizza");
             return pizza;
         } else if (typ.equals("Schinken")){
-            return new BerlinerSchinkenPizza();
+            pizza = new SchinkenPizza(berlinerZutaten);
+            pizza.setName("Berliner SchinkenPizza");
+            return pizza;
         } else if (typ.equals("Krabben")){
-            return new BerlinerKrabbenPizza();
+            pizza = new KrabbenPizza(berlinerZutaten);
+            pizza.setName("Berliner KrabbenPizza");
+            return pizza;
         } else if (typ.equals("Thunfisch")){
-            return new BerlinerThunfischPizza();
+            pizza = new ThunfischPizza(berlinerZutaten);
+            pizza.setName("Berliner ThunfischPizza");
+            return pizza;
         } else return null;
 
     }

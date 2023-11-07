@@ -1,9 +1,9 @@
 package org.example;
 
-public class SalamiPizza extends Pizza{
+public class ThunfischPizza extends Pizza{
 
     PizzaZutatenFabrik zutatenFabrik;
-    public SalamiPizza(PizzaZutatenFabrik zutatenFabrik){
+    public ThunfischPizza(PizzaZutatenFabrik zutatenFabrik){
         this.zutatenFabrik = zutatenFabrik;
     }
 
@@ -12,7 +12,7 @@ public class SalamiPizza extends Pizza{
         teig = zutatenFabrik.erstelleTeig();
         sosse = zutatenFabrik.erstelleSosse();
         kaese = zutatenFabrik.erstelleKaese();
-        salami = zutatenFabrik.erstelleSalami();
+        thunfisch = zutatenFabrik.erstelleThunfisch();
 
 
 

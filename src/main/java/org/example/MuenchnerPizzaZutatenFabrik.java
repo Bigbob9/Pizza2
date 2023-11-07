@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.zutaten.*;
+
 public class MuenchnerPizzaZutatenFabrik implements PizzaZutatenFabrik{
 
     public Teig erstelleTeig(){
@@ -29,6 +31,9 @@ public class MuenchnerPizzaZutatenFabrik implements PizzaZutatenFabrik{
 
     public Krabben erstelleKrabben(){
         return new GefrorendeKrabben();
+    }
+    public Schinken erstelleSchinken() {
+        return new Schinken();
     }
 }
 

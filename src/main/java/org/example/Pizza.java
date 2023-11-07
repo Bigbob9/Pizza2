@@ -1,10 +1,13 @@
 package org.example;
-import java.util.*;
+
+import org.example.zutaten.*;
+
 public abstract class Pizza {
     String name;
     Teig teig;
     Sosse sosse;
 
+    Schinken schinken;
     Salami salami;
     Gemuese gemuese[];
     Kaese kaese;

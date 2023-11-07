@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.zutaten.*;
+
 public interface PizzaZutatenFabrik {
 
     public Teig erstelleTeig();
@@ -11,6 +13,8 @@ public interface PizzaZutatenFabrik {
      Gemuese[] erstelleGemuese();
      Thunfisch erstelleThunfisch();
      Krabben erstelleKrabben();
+
+     Schinken erstelleSchinken();
 
 
 }

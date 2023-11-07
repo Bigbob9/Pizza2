@@ -2,16 +2,27 @@ package org.example;
 
 public class KoelnPizzeria extends Pizzeria{
 
-    public Pizza erstellePizza(String typ) {
-        Pizza pizza;
+    protected Pizza erstellePizza(String typ) {
+        Pizza pizza = null;
+        KoelnerPizzaZutatenFabrik koelnerZutaten = new KoelnerPizzaZutatenFabrik();
+
+
         if(typ.equals("Salami")){
-            return new KoelnerSalamiPizza();
+            pizza = new SalamiPizza(koelnerZutaten);
+            pizza.setName("Koelner Salamipizza");
+            return pizza;
         } else if (typ.equals("Schinken")){
-            return new KoelnerSchinkenPizza();
+            pizza = new SchinkenPizza(koelnerZutaten);
+            pizza.setName("Koelner SchinkenPizza");
+            return pizza;
         } else if (typ.equals("Krabben")){
-            return new KoelnerKrabbenPizza();
+            pizza = new KrabbenPizza(koelnerZutaten);
+            pizza.setName("Koelner KrabbenPizza");
+            return pizza;
         } else if (typ.equals("Thunfisch")){
-            return new KoelnerThunfischPizza();
+            pizza = new ThunfischPizza(koelnerZutaten);
+            pizza.setName("Koelner ThunfischPizza");
+            return pizza;
         } else return null;
 
     }

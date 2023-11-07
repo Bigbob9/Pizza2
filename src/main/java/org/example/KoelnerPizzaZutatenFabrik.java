@@ -2,7 +2,7 @@ package org.example;
 
 import org.example.zutaten.*;
 
-public class BerlinerPizzaZutatenFabrik implements PizzaZutatenFabrik{
+public class KoelnerPizzaZutatenFabrik implements PizzaZutatenFabrik{
 
     public Teig erstelleTeig(){
         return new TeigMitDuennerKruste();
